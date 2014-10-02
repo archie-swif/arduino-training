@@ -14,8 +14,8 @@ void loop() {
  Serial.print(x);
  Serial.print(":");
  Serial.print(y);  
- Serial.print(y);  
- Serial.printLn(button);   
+ Serial.print(" but:");  
+ Serial.println(button);   
  
  
  delay(100);
